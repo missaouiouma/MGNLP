@@ -1,0 +1,2668 @@
+[
+    {
+        "name": "text",
+        "type": "modality",
+        "values": [
+            {
+                "name": "token-classification",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "token-classification-other-acronym-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "coreference-resolution",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-word-tokenization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-Conversational",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-role-labeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "lemmatization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "word-sense-disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-aspect-based-sentiment-analysis",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-keyphrase-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-span-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-conversation-disentanglement",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-dialogue-state-tracking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-clause-segmentation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-sentence-segmentation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-word-segmentation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fused-head-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-propaganda-technique-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-propaganda-span-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-constituency-parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-dependency-parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-morphology",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-word-sense-disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-lemmatization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-retrieval-other-parallel-sentence-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-yes-no-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-output-structure",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-classification",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "coreference-resolution",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-qa-nli",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sarcasm-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "simplification-evaluation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-hate-speech-topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-stance-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-emotion-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-question-answer-pair-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-input-text-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-evaluating-dialogue-systems",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring-other-evaluating-dialogue-systems",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-bias-evaluation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-dialog-act-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-discourse-marker-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-rationale-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-legal-judgment-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-Hate",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-legal-topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-knowledge-verification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-Word",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-coreference-nli",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-emotion",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-Meronym-Prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-analysis",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-narrative-flow",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-headline-grouping",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-hope-speech-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-funnier-headline-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-funniness-score-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-language-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-aspect-based-sentiment-analysis",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-keyphrase-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-span-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-news-category-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-toxicity-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-question-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-Hope",
+                        "type": "task"
+                    },
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-dialogue-state-tracking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-probing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-fake-news-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-gender-bias",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-poetry-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-dialogue-act-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-social-media-shares-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-offensive-language-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-offensive-language",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-dialogue-sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-binary",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-citation-recommendation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-propaganda-technique-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-propaganda-span-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-stereotype-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-judgement-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-paraphrase-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-morphology",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-word-sense-disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-lemmatization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-translation-quality-estimation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-retrieval-other-parallel-sentence-retrieval",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "question-answering",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "query-based-multi-document-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-chained-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-raw-dataset",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-compositionality",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-ansering-other-dialogue-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-knowledge-base-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-multihop-tabular-text-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-aspect-based-sentiment-analysis",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-keyphrase-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-span-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-dialogue-state-tracking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-multi-hop",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-probing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-generative-reading-comprehension-metric",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-zero-shot-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-explanations-in-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-conversational-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-table-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-retrieval-other-parallel-sentence-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "question-answering-other-yes-no-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-output-structure",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "summarization",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "summarization-other-email-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-conversations-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-multi-document-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-aspect-based-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "patent-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "bills-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-concepts-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "rdf-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-meaning-representation-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization--other-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-extractive-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-paper-abstract-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-reddit-posts-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-scientific-documents-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization-other-hallucinations",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "conversational",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "dialogue-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "knowledge-base",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-evaluating-dialogue-systems",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring-other-evaluating-dialogue-systems",
+                        "type": "task"
+                    },
+                    {
+                        "name": "NCI-PID-PubMed",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-generation",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "dialogue-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-digital-humanities-research",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-Conversational",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fill-mask-other-conversational-curiosity",
+                        "type": "task"
+                    },
+                    {
+                        "name": "relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-concepts-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "rdf-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-meaning-representation-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-poem-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-dialogue-state-tracking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-dialogue-act-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "utterance-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-citation-recommendation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-emotion-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-pretraining-language-models",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-diacritics-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring-other-rating",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-word-sense-disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-lemmatization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-neural-search",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-token-classification-of-text-errors",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "fill-mask",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "dialogue-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-digital-humanities-research",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-Conversational",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fill-mask-other-conversational-curiosity",
+                        "type": "task"
+                    },
+                    {
+                        "name": "relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-concepts-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "rdf-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-meaning-representation-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-poem-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-dialogue-state-tracking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-dialogue-act-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "utterance-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-citation-recommendation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-emotion-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-pretraining-language-models",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-diacritics-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring-other-rating",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-word-sense-disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-lemmatization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-neural-search",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-token-classification-of-text-errors",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "translation",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation-other-business-conversations-translation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translaiton-other-theses-translation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translaiton-other-dissertation-abstracts-translation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation-other-code-to-code",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation-other-code-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation-other-text-to-code",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation-other-code-documentation-translation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-paraphrase-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation-other-tweets-translation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-translation-quality-estimation",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "natural-language-processing",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-role-labeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "coreference-resolution",
+                        "type": "task"
+                    },
+                    {
+                        "name": "lemmatization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "word-sense-disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-dialogue-state-tracking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-constituency-parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "token-classification-other-dependency-parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-answering",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "other",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "query-based-multi-document-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "data-mining",
+                        "type": "task"
+                    },
+                    {
+                        "name": "knowledge-base",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "head-pose-estimation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-digital-humanities-research",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-judgement-prediction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-raw-dataset",
+                        "type": "task"
+                    },
+                    {
+                        "name": "translation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-sentences",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-compositionality",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-Conversational",
+                        "type": "task"
+                    },
+                    {
+                        "name": "knowledge-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-text-to-speech",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-web-search",
+                        "type": "task"
+                    },
+                    {
+                        "name": "relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-contextual-embeddings",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-data-to-text-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-pretraining-language-models",
+                        "type": "task"
+                    },
+                    {
+                        "name": "disambiguation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-image-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-domain-generalization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "NCI-PID-PubMed",
+                        "type": "task"
+                    },
+                    {
+                        "name": "image-self-supervised",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-dialogue-sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-citation-recommendation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-sentence-compression",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-story-completion",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-open-information-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-text-search",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-token-classification-of-text-errors",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text2text-generation",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "query-based-multi-document-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "simplification-evaluation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-common-sense-if-then-reasoning",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-debugging",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-concepts-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "sentiment-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-meaning-representation-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-meaning-representtion-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstrative-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-concepts-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-intent-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "rdf-to-text",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-math-word-problems",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-poem-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-grammatical-error-correction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-long-range-dependency",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-code-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-text-to-sql",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-paraphrase-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "news-articles-headline-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "parsing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text2text-generation-other-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "topic-classification",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-mining",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "data-mining",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-retrieval",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "explanation-generation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-simplification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-input-text-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-retrieval-other-document-to-document-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "dialogue-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-abstractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-probing",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "relation-extraction",
+                        "type": "task"
+                    },
+                    {
+                        "name": "utterance-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "summarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-retrieval-other-parallel-sentence-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "multiple-choice",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "coreference-resolution",
+                        "type": "task"
+                    },
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-classification-other-paraphrase-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-retrieval-other-parallel-sentence-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "named-entity-recognition",
+                        "type": "task"
+                    },
+                    {
+                        "name": "part-of-speech-tagging",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "zero-shot-classification",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "multiple-choice-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "extractive-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "open-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "closed-domain-qa",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking",
+                        "type": "task"
+                    },
+                    {
+                        "name": "acceptability-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-class-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "hate-speech-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "synthetic-language",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "translation",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-scoring",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "natural-language-inference",
+                        "type": "task"
+                    },
+                    {
+                        "name": "semantic-similarity-scoring",
+                        "type": "task"
+                    },
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "text-scoring-other-rating",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "automatic-speech-recognition",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "speaker-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-speaker-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "keyword-spotting",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-classification-other-query-by-example-spoken-term-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-classification-other-automatic-speaker-verification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-classification-other-speaker-diarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-audio-slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-emotion-recognition",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-to-tabular",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "relation-extraction",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "text-to-structured",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "entity-linking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "fact-checking-retrieval",
+                        "type": "task"
+                    },
+                    {
+                        "name": "relation-extraction",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "visual-question-answering",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "visual-question-answering",
+                        "type": "task"
+                    },
+                    {
+                        "name": "image-captioning",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "other-text-search",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "masked-language-modeling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-neural-search",
+                        "type": "task"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "speech",
+        "type": "modality",
+        "values": [
+            {
+                "name": "audio-classification",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "speaker-language-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "speaker-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-speaker-identification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "keyword-spotting",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-classification-other-query-by-example-spoken-term-detection",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-classification-other-automatic-speaker-verification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-classification-other-speaker-diarization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-intent-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-audio-slot-filling",
+                        "type": "task"
+                    },
+                    {
+                        "name": "audio-emotion-recognition",
+                        "type": "task"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "visual",
+        "type": "modality",
+        "values": [
+            {
+                "name": "image-classification",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "multi-class-image-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "multi-label-image-classification",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-other-domain-generalization",
+                        "type": "task"
+                    },
+                    {
+                        "name": "image-self-supervised",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "computer-vision",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "head-pose-estimation",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "image-to-text",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "image-captioning",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "object-detection",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "other",
+                        "type": "task"
+                    },
+                    {
+                        "name": "image-captioning",
+                        "type": "task"
+                    },
+                    {
+                        "name": "face-detection",
+                        "type": "task"
+                    }
+                ]
+            },
+            {
+                "name": "image-segmentation",
+                "type": "category",
+                "values": [
+                    {
+                        "name": "instance-segmentation",
+                        "type": "task"
+                    },
+                    {
+                        "name": "other-scene-parsing",
+                        "type": "task"
+                    }
+                ]
+            }
+        ]
+    }
+]
