@@ -1,252 +1,63 @@
 import json
 # Charger les données depuis le fichier JSON
-with open('updated_metadata_v3.json', 'r', encoding='utf-8') as file:
+with open('C:/Users\hp\OneDrive\Documents\datasets_info+card.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Mots-clés pour classifier les tâches
 keywords = {
-    'speech': [
-        "audio-classification", "audio-speaker-identification",
-        "speaker-language-identification", "audio-intent-classification",
-        "audio-classification-other-query-by-example-spoken-term-detection",
-        "audio-classification-other-speaker-diarization", "audio-emotion-recognition",
-        "speaker-identification", "keyword-spotting",
-        "audio-classification-other-automatic-speaker-verification",
-    ],
+    'text': ['text-classification', 'token-classification',
+             'question-answering', 'text-generation',
+             'fill-mask',  'translation', 'summarization',
+             'text2text-generation',  'multiple-choice', 'text-retrieval',
+             'conversational', 'visual-question-answering',
+             'tabular-to-text', 'table-to-text',
+             'automatic-speech-recognition', 'image-to-text',
+             'zero-shot-classification', 'sequence-modeling',
+             'zero-shot-retrieval', 'information-retrieval',
+             'zero-shot-information-retrieval', 'structure-prediction',
+             'conditional-text-generation', 'paraphrase',
+             'paraphrase detection', 'news-classification',
+             'named-entity-recognition', 'sentence-similarity',
+             'text-scoring', 'other-test',
+             'named-entity-disambiguation',
+             'code-generation', 'textual-entailment',
+             'natural-language-inference', 'sentiment-analysis',
+             'machine-translation', 'text-mining',
+             'text_classification', 'Automatic-Speech-Recognition',
+             'question-answering-retrieval', 'text',
+             'linear-regression', 'table-question-answering',
+             'tabular-classification', 'text-to-image',
+             'paraphrase-mining', 'commonsense-reasoning',
+             'moral-reasoning', 'social-reasoning',
+             'coreference resolution', 'commonsense reasoning',
+             'text-understanding', 'text-comprehension',
+             'natural-language-understanding', 'natural-language-generation',
+             'reinforcement-learning', 'tabular-regression'],
 
-    'text': [
-        "hate-speech-detection",
-        "automatic-speech-recognition",
-        "text-generation",
-        "text-to-structured",
-        "summarization",
-        "question-answering",
-        "text-generation-other-code-modeling",
-        "fill-mask",
-        "text-generation-other-common-sense-inference",
-        "token-classification",
-        "text-scoring",
-        "text-to-tabular",
-        "conversational",
-        "multiple-choice",
-        "zero-shot-classification",
-        "text-classification",
-        "translation",
-        "text-retrieval",
-        "text-generation-other-discourse-analysis",
-        "text2text-generation",
-        "other-text-search",
-        "sentiment-classification",
-        "language-modeling",
-        "text-classification-other-funniness-score-prediction",
-        "text-classification-other-question-answer-pair-classification",
-        "token-classification-other-constituency-parsing",
-        "summarization--other-headline-generation",
-        "text-classification-other-offensive-language",
-        "acceptability-classification",
-        "text-classification-other-news-category-classification",
-        "summarization-other-patent-summarization",
-        "summarization-other-bills-summarization",
-        "dialogue-modeling",
-        "sentiment-analysis",
-        "coreference-resolution",
-        "question-ansering-other-dialogue-qa",
-        "translation-other-code-documentation-translation",
-        "question-answering-other-conversational-qa",
-        "text-classification-other-probing",
-        "summarization-other-scientific-documents-summarization",
-        "text-classification-other-paraphrase-identification",
-        "text-simplification",
-        "token-classification-other-keyphrase-extraction",
-        "translation-other-tweets-translation",
-        "text2text-generation-other-concepts-to-text",
-        "text-classification-other-acceptability-classification",
-        "text2text-generation-other-paraphrase-generation",
-        "question-answering-other-chained-qa",
-        "text-classification-other-aspect-based-sentiment-analysis",
-        "translaiton-other-dissertation-abstracts-translation",
-        "text-classification-other-word-sense-disambiguation",
-        "text-classification-other-evaluating-dialogue-systems",
-        "named-entity-recognition",
-        "text-classification-other-qa-nli",
-        "text-classification-legal-topic-classification",
-        "summarization-other-email-headline-generation",
-        "question-answering-other-yes-no-qa",
-        "text-classification-other-dialog-act-classification",
-        "closed-domain-qa",
-        "text-classification-other-hope-speech-classification",
-        "slot-filling",
-        "text-classification-other-funnier-headline-identification",
-        "text-classification-other-coreference-nli",
-        "token-classification-other-relation-extraction",
-        "text-classification-other-binary",
-        "token-classification-other-propaganda-span-identification",
-        "extractive-qa",
-        "translation-other-text-to-code",
-        "text-classification-other-language-identification",
-        "fact-checking",
-        "text2text-generation-other-meaning-representation-to-text",
-        "relation-extraction",
-        "text-classification-other-dialogue-act-classification",
-        "token-classification-other-dependency-parsing",
-        "text-classification-other-propaganda-technique-classification",
-        "question-answering-other-multi-hop",
-        "token-classification-other-sentence-segmentation",
-        "question-answering-other-table-question-answering",
-        "explanation-generation",
-        "open-domain-abstractive-qa",
-        "translation-other-code-to-text",
-        "token-classification-other-fused-head-identification",
-        "text-retrieval-other-document-to-document-retrieval",
-        "text-classification-other-sarcasm-detection",
-        "text-classification-other-fake-news-detection",
-        "summarization-other-reddit-posts-summarization",
-        "text2text-generation-other-grammatical-error-correction",
-        "text-classification-other-narrative-flow",
-        "text2text-generation-other-meaning-representtion-to-text",
-        "text-classification-other-stereotype-detection",
-        "text-classification-other-gender-bias",
-        "text-classification-other-simplification-evaluation",
-        "token-classification-other-word-tokenization",
-        "text2text-generation-other-common-sense-if-then-reasoning",
-        "translation-other-code-to-code",
-        "semantic-role-labeling",
-        "lemmatization",
-        "text2text-generation-other-code-generation",
-        "other-other-knowledge-extraction",
-        "fill-mask-other-conversational-curiosity",
-        "text-classification-other-Hate",
-        "open-domain-qa",
-        "semantic-similarity-scoring",
-        "other-other-knowledge-base",
-        "text-classification-other-Meronym-Prediction",
-        "masked-language-modeling",
-        "dialogue-generation",
-        "text-classification-other-rationale-extraction",
-        "semantic-similarity-classification",
-        "text2text-generation-other-math-word-problems",
-        "rdf-to-text",
-        "other-other-open-information-extraction",
-        "text-scoring-other-rating",
-        "news-articles-headline-generation",
-        "summarization-other-conversations-summarization",
-        "text-classification-other-question-identification",
-        "text-classification-other-dialogue-sentiment-classification",
-        "text-classification-other-hate-speech-topic-classification",
-        "token-classification-other-conversation-disentanglement",
-        "text-classification-other-social-media-shares-prediction",
-        "parsing",
-        "text-scoring",
-        "text-classification-other-emotion-classification",
-        "text-classification-other-stance-detection",
-        "summarization-other-aspect-based-summarization",
-        "multi-input-text-classification",
-        "text2text-generation-other-explanation-generation",
-        "multi-class-classification",
-        "other-other-text-to-speech",
-        "other-other-web-search",
-        "open-domain-abstrative-qa",
-        "multivariate-time-series-forecasting",
-        "other-dialogue-state-tracking",
-        "other-other-disambiguation",
-        "token-classification-other-output-structure",
-        "text-scoring-other-evaluating-dialogue-systems",
-        "text-classification-other-legal-judgment-prediction",
-        "summarization-other-extractive-summarization",
-        "summarization-other-multi-document-summarization",
-        "text-retrieval-other-parallel-sentence-retrieval",
-        "text-classification-other-Hope",
-        "text2text-generation-other-long-range-dependency",
-        "intent-classification",
-        "news-articles-summarization",
-        "text-classification-other-translation-quality-estimation",
-        "other-text-search",
-        "question-answering-other-multihop-tabular-text-qa",
-        "other-other-pretraining-language-models",
-        "text-generation",
-        "other-other-sentences",
-        "text-classification-other-bias-evaluation",
-        "text2text-generation-other-poem-generation",
-        "sentiment-scoring",
-        "text-classification-other-knowledge-verification",
-        "text-classification-other-offensive-language-classification",
-        "question-answering-other-generative-reading-comprehension-metric",
-        "other-other-contextual-embeddings",
-        "text2text-generation-other-intent-to-text",
-        "other",
-        "text-classification-other-judgement-prediction",
-        "summarization-other-paper-abstract-generation",
-        "token-classification-other-morphology",
-        "fact-checking-retrieval",
-        "document-retrieval",
-        "text-classification-other-emotion",
-        "question-answering-other-knowledge-base-qa",
-        "token-classification-other-span-extraction",
-        "multi-label-classification",
-        "translaiton-other-theses-translation",
-        "word-sense-disambiguation",
-        "token-classification-other-clause-segmentation",
-        "audio-classification-other-automatic-speaker-verification",
-        "hate-speech-detection",
-        "natural-language-inference",
-        "token-classification-other-lemmatization",
-        "text-classification-other-toxicity-prediction",
-        "token-classification-other-relation-prediction",
-        "text-classification-other-poetry-classification",
-        "text-classification-other-discourse-marker-prediction",
-        "other-other-sentence-compression",
-        "text2text-generation-other-question-answering",
-        "other-audio-slot-filling",
-        "abstractive-qa",
-        "part-of-speech",
-        "other-other-query-based-multi-document-summarization",
-        "multiple-choice-qa",
-        "text-classification-other-Word",
-        "text2text-generation-other-text-to-sql",
-        "text-classification-other-headline-grouping",
-        "utterance-retrieval",
-        "entity-linking-retrieval",
-        "topic-classification",
-        "text-classification-other-hate-speech-detection",
-        "other-other-data-to-text-generation",
-        "part-of-speech-tagging",
-        "question-answering-other-zero-shot-relation-extraction",
-        "token-classification-other-word-segmentation",
-        "text2text-generation-other-question-generation",
-        "token-classification-other-acronym-identification",
-        "other-other-Conversational",
-        "data-mining",
-        "synthetic-language",
-        "automatic-speech-recognition",
-        "speech-recognition",
-        "text-mining",
-        "parsing", "natural-language-processing",
-        "translation","synthetic-language",
-        "knowledge-base","conversational",
-        "NCI-PID-PubMed","conversational",
+    'speech': ['audio-classification', 'speech-processing',
+               'audio-to-audio', 'text-to-speech', 'text-to-audio'],
 
-        ],
-    'visual': [
-        "image-to-text", "object-detection", "visual-question-answering", "image-segmentation",
-        "image-classification", "instance-segmentation", "multi-class-image-classification",
-        "multi-label-image-classification", "face-detection", "multi-class-image-classification",
-        "image-captioning","other-image-self-supervised","multi-label-image-classification",
-        "face-detection","head-pose-estimation","computer-vision",
-        "image-self-supervised","image-classification"
-    ]
+    'visual' : ['image-classification', 'image-segmentation',
+                'object-detection', 'masked-auto-encoding',
+                'rendered-language-modelling', 'video-captionning',
+                'feature-extraction', 'zero-shot-image-classification',
+                'image-to-image', 'image-generation', 'unconditional-image-generation',
+                'video-classification', 'image-to-3d']
+
 }
 
-# Structure modifiée basée sur le modèle de taxonomie
+# Structure modifiée basée sur le modèle de taxonomie avec 'other' ajouté
 modified_json = [{'name': 'text', 'type': 'modality', 'values': []},
                  {'name': 'speech', 'type': 'modality', 'values': []},
-                 {'name': 'visual', 'type': 'modality', 'values': []}]
+                 {'name': 'visual', 'type': 'modality', 'values': []},
+                 {'name': 'other', 'type': 'modality', 'values': []}]
 
 def classify_category_based_on_keywords(category, keywords):
     category_lower = category.lower()
     for modality, kws in keywords.items():
         if any(keyword.lower() in category_lower for keyword in kws):
             return modality
-    return None
+    return 'other'  # Retourne 'other' si aucune correspondance n'est trouvée
 
 def add_task_to_category_in_modality(category_name, task_name, modality_name, modified_json):
     for modality in modified_json:
@@ -255,18 +66,23 @@ def add_task_to_category_in_modality(category_name, task_name, modality_name, mo
             if not category:
                 category = {"name": category_name, "type": "category", "values": []}
                 modality["values"].append(category)
-            # Vérifier si la tâche existe déjà avant de l'ajouter
             if not any(task["name"] == task_name for task in category["values"]):
                 category["values"].append({"name": task_name, "type": "task"})
             break
 
 for item in data:
-    for category in item["data"]["categories"]:
-        modality_name = classify_category_based_on_keywords(category, keywords)
-        if modality_name:
-            for task in item["data"]["tasks"]:
-                add_task_to_category_in_modality(category, task, modality_name, modified_json)
+    if item is not None and 'cardData' in item:
+        cardData = item['cardData']
+        if 'task_categories' in cardData and 'task_ids' in cardData:
+            task_categories = cardData['task_categories']
+            task_ids = cardData['task_ids']
+            for category in task_categories:
+                modality_name = classify_category_based_on_keywords(category, keywords)
+                for task in task_ids:
+                    add_task_to_category_in_modality(category, task, modality_name, modified_json)
 
-with open('taxonomy.json', 'w', encoding='utf-8') as modified_file:
+# Sauvegarder dans un nouveau fichier JSON
+with open('taxonomy2.json', 'w', encoding='utf-8') as modified_file:
     json.dump(modified_json, modified_file, indent=4)
+    print("done")
 
