@@ -42,7 +42,9 @@ keywords = {
                 'rendered-language-modelling', 'video-captionning',
                 'feature-extraction', 'zero-shot-image-classification',
                 'image-to-image', 'image-generation', 'unconditional-image-generation',
-                'video-classification', 'image-to-3d']
+                'video-classification', 'image-to-3d'],
+
+    'time_series': ['time-series-forecasting']
 
 }
 
@@ -50,6 +52,7 @@ keywords = {
 modified_json = [{'name': 'text', 'type': 'modality', 'values': []},
                  {'name': 'speech', 'type': 'modality', 'values': []},
                  {'name': 'visual', 'type': 'modality', 'values': []},
+                {'name': 'time_series', 'type': 'modality', 'values': []},
                  {'name': 'other', 'type': 'modality', 'values': []}]
 
 def classify_category_based_on_keywords(category, keywords):
@@ -59,30 +62,34 @@ def classify_category_based_on_keywords(category, keywords):
             return modality
     return 'other'  # Retourne 'other' si aucune correspondance n'est trouvée
 
-def add_task_to_category_in_modality(category_name, task_name, modality_name, modified_json):
+
+def add_task_to_category_in_modality(category_name, task_name, modality_name, dataset_id, modified_json):
     for modality in modified_json:
         if modality["name"] == modality_name:
             category = next((cat for cat in modality["values"] if cat["name"] == category_name), None)
             if not category:
                 category = {"name": category_name, "type": "category", "values": []}
                 modality["values"].append(category)
-            if not any(task["name"] == task_name for task in category["values"]):
-                category["values"].append({"name": task_name, "type": "task"})
-            break
+            task = next((t for t in category["values"] if t["name"] == task_name), None)
+            if not task:
+                task = {"name": task_name, "type": "task", "dataset_ids": []}
+                category["values"].append(task)
+            if dataset_id not in task["dataset_ids"]:
+                task["dataset_ids"].append(dataset_id)
 
 for item in data:
-    if item is not None and 'cardData' in item:
+    if item and 'cardData' in item:
         cardData = item['cardData']
+        dataset_id = item['id']  # Extraire l'ID du dataset
         if 'task_categories' in cardData and 'task_ids' in cardData:
             task_categories = cardData['task_categories']
             task_ids = cardData['task_ids']
             for category in task_categories:
                 modality_name = classify_category_based_on_keywords(category, keywords)
-                for task in task_ids:
-                    add_task_to_category_in_modality(category, task, modality_name, modified_json)
+                for task_id in task_ids:
+                    add_task_to_category_in_modality(category, task_id, modality_name, dataset_id, modified_json)
 
 # Sauvegarder dans un nouveau fichier JSON
 with open('taxonomy2.json', 'w', encoding='utf-8') as modified_file:
     json.dump(modified_json, modified_file, indent=4)
     print("done")
-
